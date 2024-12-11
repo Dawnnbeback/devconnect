@@ -1,0 +1,23 @@
+/* Accessibility Enhancements */
+.nav-link:focus {
+    outline: 3px solid var(--secondary-color);
+    outline-offset: 2px;
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.5);
+}
+
+/* Custom Components */
+.post-card {
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.profile-header {
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
